@@ -1,6 +1,6 @@
 <?php
-    $firstName = $_GET['firstname'];
-    $lastName = $_GET['lastname'];
+    $firstName = $_POST['firstname'];
+    $lastName = $_POST['lastname'];
 
     echo 'Welcome to our website, ' . 
     htmlspecialchars($firstName, ENT_QUOTES, 'UTF-8') . ' ' . 
