@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DB script output</title>
+    <title>Programmer Jokes</title>
 </head>
 <body>
     <?php 
-        echo $output; 
+        $jokes = implode(PHP_EOL, $jokes);
+        echo $jokes;
     ?>
 </body>
 </html>
